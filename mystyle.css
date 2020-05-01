@@ -1,0 +1,74 @@
+
+:root{
+  font-Family: "Dosis", sans-serif;
+  font-size: 10px;
+}
+
+.body-collor{
+	background-color: rgb(102, 192, 90);
+}
+
+.container-main {
+  display: grid;
+  grid-template-rows: 100px 500px 500%;
+}
+
+.container-top {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.container-middle {
+  display: grid;
+  grid-template-columns: auto 500px auto;
+}
+
+.container-bottom {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.container-center {
+  background-color: rgb(102, 192, 90);
+  display: grid;
+  /*
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;  
+  */
+  align-self: center;
+  justify-self: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.item-frame-left {
+  text-align: center;
+  display: block;
+  background-color: rgb(37, 103, 202);
+}
+
+.item-frame-center {
+  text-align: center;
+  display: block;
+}
+
+.item-frame-right {
+  text-align: center; 
+  display: block;
+	background-color: rgb(179, 58, 104);
+}
+
+table {
+ /* width: 600px;
+  height: 600px;*/
+  align-self: auto;
+  align-content: center;
+}
+
+td {
+  border-radius: 5px;
+}
+
+td:hover {
+  border-radius: 15px;
+}
